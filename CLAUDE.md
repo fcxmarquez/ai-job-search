@@ -133,3 +133,7 @@ ATS parsers read the PDF's embedded text layer, not the rendered page. Extract i
 - [ ] Email and phone appear as **literal text** in the extraction (icon-glyph noise like `MOBILE-ALT`/`Envelope` is harmless, but a contact detail carried only by an icon or hyperlink is invisible to ATS)
 - [ ] Reading order of the extracted text matches the visual order (single-column stock template is safe; multi-column custom templates are where this breaks)
 - [ ] Posting keywords covered or honestly absent - synonym-only matches tightened to the posting's exact term where truthfully applicable, keywords the profile genuinely supports added to experience bullets, genuine gaps left visible and **never stuffed**
+
+## Codex Runtime Instructions
+
+If and only if the current agent/runtime is Codex, also read `CODEX.md` after this file and follow it as the Codex-specific compatibility layer. Non-Codex agents should ignore `CODEX.md` unless the user explicitly asks for it.
